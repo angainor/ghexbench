@@ -16,7 +16,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
-
 # User options
 set(CARTEX_FLOAT "float" CACHE STRING "Floating-point type")
 set_property(CACHE CARTEX_FLOAT PROPERTY STRINGS "float" "double")

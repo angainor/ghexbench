@@ -16,7 +16,7 @@ use_ucx=0
 work_dir="."
 bin_dir="."
 system=""
-systems="betzy"
+systems="betzy fram"
 mpilib="impi ompi"
 
 benchmark_mpi_comm="benchmark_mpi_comm"
@@ -30,6 +30,9 @@ usage() {
     echo ""
     echo "  system and subsystem can be one of these values"
     echo "    betzy"
+    echo "      impi"
+    echo "      ompi"
+    echo "    fram"
     echo "      impi"
     echo "      ompi"
     echo ""
